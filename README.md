@@ -34,14 +34,18 @@ To run any of the examples in this repository:
 1. **Terraform**: Ensure you have Terraform CLI installed (`v1.0+`).
 2. **Azure CLI**: Authenticate with your Azure account:
    ```bash
-   az login```
+   az login
+   ```
 3. Run Terraform:
 Navigate to the desired folder and run standard Terraform commands:
 ```bash
 cd <module_folder>
 terraform init
 terraform plan
-terraform apply```
+terraform apply
+```
+
+---
 
 ## 👤 Author
 Maintained by Ramón Sánchez Villanueva
