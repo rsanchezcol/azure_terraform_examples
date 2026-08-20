@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "codility"
+  name     = "appinfra"
   location = "uksouth"
 }
 
